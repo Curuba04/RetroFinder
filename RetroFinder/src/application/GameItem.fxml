@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameItemController">
+   <children>
+      <Label fx:id="gameNameLabel" layoutX="8.0" layoutY="254.0" text="Pokemon">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="gamePriceLabel" layoutX="180.0" layoutY="254.0" text="Preis:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgPath" fitHeight="234.0" fitWidth="264.0" layoutX="8.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/CVD%20Studium/Semester%202/Informatik%202/Softwaretechnik%20Praktikum/Objekts/jpeg/PokemonStadium2N64.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
